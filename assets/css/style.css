@@ -612,6 +612,9 @@
         margin-top: 30px;
 
     }
+    .hero {
+        height: 100vh;
+    }
 
 }
 
