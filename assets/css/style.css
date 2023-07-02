@@ -482,6 +482,9 @@
         width: 100%;
       padding: 0 20px;
     }
+    .toggle{
+        display: none;
+    }
   }
   @media (min-aspect-ratio: 16/9) {
     .bg-video {
@@ -519,6 +522,16 @@
     height: auto;
     margin: 15px 0;
  }
+ .navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 }
 
 @media (max-width: 550px) {
@@ -584,6 +597,20 @@
   
     .ft-img{
         margin: 0px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .content-title{
+        font-size: 45px;
+    }
+    .content-logo{
+        width: 230px;
+    }
+    .content {
+        width: 100%;
+        margin-top: 30px;
+
     }
 
 }
